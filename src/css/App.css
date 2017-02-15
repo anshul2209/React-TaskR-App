@@ -1,0 +1,18 @@
+.App-body{
+	white-space: nowrap;
+    overflow: auto;
+}
+.list_wrapper{
+	border: 1px solid;
+	width: 300px;
+	padding: 10px;
+	display: inline-block;
+	margin: 10px;
+	height: 600px;
+	overflow: auto;
+	border-radius: 10px;
+}
+.header-Wrapper{
+	border-bottom: 1px solid;
+	padding: 5px 0px;
+}

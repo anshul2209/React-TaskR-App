@@ -1,0 +1,27 @@
+.headerWrapper {
+  background-color: #4267B2;
+  height: 20px;
+  padding: 20px;
+  color: white;
+}
+.companyTitle{
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+  float: left;
+  margin-left: 10px;
+}
+.navRight{
+	float: right;
+   cursor: pointer;
+}
+.addList{
+width: 150px;
+    height: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+     cursor: pointer;
+  }

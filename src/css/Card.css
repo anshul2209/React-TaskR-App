@@ -1,0 +1,40 @@
+.cardWrapper{
+	border: 1px solid;
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 10px;
+}
+.heading-span {
+	color: #365899;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+    display: inline-block;
+}
+.deleteMe {
+	width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 3px;
+    margin-right: 4px;
+     cursor: pointer;
+}
+.updateMe {
+	width: 25px;
+    height: 25px;
+     cursor: pointer;
+}
+.updateForm input {
+	    margin-bottom: 5px;
+    width: 80%;
+    margin-top: 2px;
+    padding: 5px;
+    height: 15px;
+}
+.updateForm button{
+	width: 60%;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+.title{
+	display: inline-block;
+width: 55%;
+font-size: 24px;
+    color: #365899;
+    cursor: pointer;
+}
+.addcard{
+	background-color: #4267B2;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    border: 1px solid;
+    padding: 8px 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.deletelist{
+	display: inline-block;
+	width: 10%;
+	margin-left: 5%;
+	cursor: pointer;
+}
+.deletelist img {
+	width: 25px;
+	height: auto;
+}
+.cardsWrapper{
+	padding: 10px 0px
+}
+.updateTitleForm{
+	width: 60%;
+    display: inline-block;
+}
+.updateTitleForm input {
+	    margin-bottom: 5px;
+    width: 80%;
+    margin-top: 2px;
+    padding: 5px;
+    height: 15px;
+}
+.updateTitleForm button{
+	width: 60%;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.bar {
+	border-bottom: 1px solid;
+    margin-bottom: 10px;
+   
+}
