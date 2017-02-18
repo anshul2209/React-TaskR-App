@@ -24,6 +24,7 @@ export default class Card extends Component{
 
   }
   onDragOver(e){
+
   	e.preventDefault();
   }
 	updateDescription(e){

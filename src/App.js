@@ -58,6 +58,8 @@ class App extends Component {
   }
 
   drop(event) {
+    event.preventDefault();
+    console.log('dropped');
     var id = event.dataTransfer.getData('text');
     var obj = JSON.parse(id);
     var foundcard;
@@ -76,9 +78,8 @@ class App extends Component {
         }
       }
     }
-    this.addCard(foundcard,event.currentTarget.id);
     this.handleDelete(obj.listid, obj.cardid);
-
+    this.addCard(foundcard,event.currentTarget.id);
   }
   handleListUpdate(title,listid){
   	const l_id = listid;
@@ -171,6 +172,7 @@ class App extends Component {
   	const listData = lists;
     for(var i=0; i<listData.length;i++){
     	const listNumber = listData[i];
+      console.log('***', listNumber.id, listid, typeof listNumber.id, typeof listid );
     	if(listNumber.id === listid){
     		const cards = listNumber.cards;
     		cards.push(card);
